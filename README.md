@@ -53,6 +53,7 @@ Projet complet et mises à jour éventuelles du programme sur GitHub : https://g
 ## Commentaires et explication
 Je n'ai pas eu le temps de gérér des messages de taille différentes dans le même BAL, ni la soustraitance de la BAL (avec fork et select).
 On peut en observer une ébauche dans ./bal.c/boite2
+J'ai oublié la plus part des free...
 
 
 ## License
