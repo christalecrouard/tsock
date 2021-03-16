@@ -14,12 +14,12 @@ make
 
 ### Fonctionnement SOURCE :
 ```bash
-./tsockc -s [destinataire][port]
+./tsockc -s[options][destinataire][port]
 ```
 
 ### Fonctionnement PUITS :
 ```bash
-./tsockc -s [port]
+./tsockc -p [port]
 ```
 
 ### Options SOURCE et PUITS :
@@ -34,12 +34,12 @@ make
 
 ### Fonctionnement EMMETTEUR BAL
 ```bash
-./tsockc -e[##] [destinataire][port]
+./tsockc -e[##][options][destinataire][port]
 ```
 
 ### Fonctionnement EMMETTEUR BAL
 ```bash
-./tsockc -r[##] [destinataire][port]
+./tsockc -r[##][options][destinataire][port]
 ```
 ### Options BAL :
  - Nombre de messages : [-n##]
@@ -53,6 +53,7 @@ Projet complet et mises à jour éventuelles du programme sur GitHub : https://g
 ## Commentaires et explication
 Je n'ai pas eu le temps de gérér des messages de taille différentes dans le même BAL, ni la soustraitance de la BAL (avec fork et select).
 On peut en observer une ébauche dans ./bal.c/boite2
+J'ai commencé la gestion des messages important (en TCP)
 J'ai oublié la plus part des free...
 
 
